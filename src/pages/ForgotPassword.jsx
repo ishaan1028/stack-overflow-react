@@ -39,7 +39,7 @@ export default function ForgotPassword() {
             }
             catch (err) {
                 setIsLoading(false);
-                setErrors("error sending email. try later");
+                setErrors(err?.response?.data);
                 console.error(err);
             }
         }
