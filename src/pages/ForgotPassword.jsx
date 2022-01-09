@@ -62,7 +62,7 @@ export default function ForgotPassword() {
                         {
                             successMsg ? <div className="errorAlert">
                                 <Alert variant="success">
-                                    Password reset link which is valid for 1 hour has been sent to your email.
+                                    Password reset link has been sent to your email.
                                 </Alert>
                             </div> :
                                 <div className="loginBody">
